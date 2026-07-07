@@ -5,7 +5,7 @@ const app = express();
 app.use(express.json());
 
 // Ganti dengan API key kamu
-const API_KEY = "jg-207376f9eea872657e34996ffbeba0d9e679c3044cc81ecb5d44d960b6bdf308";
+const API_KEY = "";
 
 app.post("/chat", async (req, res) => {
   try {
